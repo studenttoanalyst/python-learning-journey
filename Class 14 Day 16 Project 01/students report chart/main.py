@@ -65,8 +65,8 @@ else:
 
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(8, 5))
-plt.bar(avg_marks["Name"], avg_marks["Marks"], color='skyblue')
+plt.figure(figsize=(6, 10))
+plt.bar(avg_marks["Name"], avg_marks["Marks"], color='darkblue')
 plt.title("📊 Average Marks by Student")
 plt.xlabel("Student Name")
 plt.ylabel("Average Marks")
